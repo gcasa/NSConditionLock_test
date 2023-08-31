@@ -8,7 +8,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-@property (weak) IBOutlet NSButton *button;
+@property (retain) IBOutlet NSButton *button;
 @property (strong) IBOutlet NSWindow *window;
 @end
 
